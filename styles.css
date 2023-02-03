@@ -19,6 +19,7 @@ nav {
     padding: 20px 30px;
     display: flex;
     align-items: center;
+   
 }
 
 nav img {
@@ -33,9 +34,9 @@ nav img {
 }
 
 nav ul {
-    display: inline-flex;
+    margin-left: 600px;
     list-style: none;
-    
+    display: flex;
 }
 
 nav ul li {
@@ -43,6 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
+    
     color: white;
     text-decoration: none;
 }
@@ -105,11 +107,14 @@ nav ul li a {
     margin-right: 10px;
 }
 @media screen and (max-width: 800px){
-.body-container{
-    flex:1;
+
+.a{
+    width: 50%;
+    height: 50%;
 }
 #heading {
     font-size: 30px;
 }
+
     
 }
